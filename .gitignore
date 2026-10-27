@@ -1,0 +1,23 @@
+
+# R and RStudio local files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Local data: review and version deliberately if appropriate
+data/*
+!data/README.md
+
+# Generated outputs
+results/*
+figures/*
+reports/*
+
+# macOS
+.DS_Store
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
